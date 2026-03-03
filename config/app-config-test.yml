@@ -1,5 +1,5 @@
 isDeploymentOngoing: false
 
 # '#TOKEN#"' to split messages
-sellerAppDisplayMessage: "welcome sellers"
+sellerAppDisplayMessage: "welcome sellers#TOKEN#we are currently onboarding sellers in Kothnur(560077), Bengaluru"
 buyerAppDisplayMessage: "welcome buyers"
