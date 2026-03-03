@@ -1,1 +1,5 @@
 isDeploymentOngoing: false
+
+# '#TOKEN#"' to split messages
+sellerAppDisplayMessage: "welcome sellers#TOKEN#We are currently onboarding sellers only in Kothnur(560077), Bengaluru"
+buyerAppDisplayMessage: "Sellers only from Kothnur(560077) Bengaluru are available currently."
