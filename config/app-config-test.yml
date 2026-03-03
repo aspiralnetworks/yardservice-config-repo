@@ -1,2 +1,5 @@
 isDeploymentOngoing: false
 
+# '#TOKEN#"' to split messages
+sellerAppDisplayMessage: "welcome sellers"
+buyerAppDisplayMessage: "welcome buyers"
