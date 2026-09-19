@@ -6,3 +6,59 @@ sellerAppDisplayMessage: "*Welcome, sellers!*#TOKEN#We are currently onboarding 
 buyerAppDisplayMessage: "*Welcome, buyers!*#TOKEN#We are currently available in *Bengaluru*, and are expanding our reach to serve more areas soon."
 
 imageKitQueryParams: "?tr=w-200,h-200,f-webp,q-100"
+
+sellerNotification:
+  presets:
+    # Stock and freshness
+    - id: fresh
+      label: "🥬 Fresh stock"
+      text: "🥬 Fresh stock has just arrived at our store. Order now while everything is available!"
+    - id: arrivals
+      label: "🛒 New arrivals"
+      text: "🛒 We have new items in store this week. Open the app to see what is new."
+    - id: restock
+      label: "📦 Back in stock"
+      text: "📦 Your favourites are back in stock! Order now before they run out again."
+    - id: limited
+      label: "⏳ Limited stock"
+      text: "⏳ Some popular items are running low today. Order early to be sure you get yours."
+    - id: seasonal
+      label: "🌸 Seasonal items"
+      text: "🌸 Seasonal items are now available at our store. Have a look and place your order today."
+    - id: festival
+      label: "🪔 Festival needs"
+      text: "🪔 Festival season is here. Order everything you need from us in advance and avoid the last-minute rush."
+
+    # Convenience and availability
+    - id: open
+      label: "✅ We are open"
+      text: "✅ We are open and ready to take your orders. Order through the app anytime."
+    - id: delivery
+      label: "🚚 Home delivery"
+      text: "🚚 Home delivery is available today. Place your order and we will bring it to your door."
+    - id: pickup
+      label: "🏪 Quick pickup"
+      text: "🏪 Order ahead in the app and pick it up when you pass by. Your order will be packed and waiting."
+    - id: timing
+      label: "🕒 Timings"
+      text: "🕒 Our store timings have been updated. Open the app to check when we are open and order in advance."
+    - id: weekend
+      label: "🌤️ Weekend"
+      text: "🌤️ Planning for the weekend? Place your order today and we will keep it ready for you."
+
+    # Reminders and relationship
+    - id: weekly
+      label: "📝 Weekly essentials"
+      text: "📝 Time to stock up on this week's essentials? Order from us in a few taps."
+    - id: missed
+      label: "👋 We miss you"
+      text: "👋 It has been a while since your last order. Come back and see what is new at our store."
+    - id: reorder
+      label: "🔁 Reorder"
+      text: "🔁 Running low on something? Reorder your usual items from your past orders in seconds."
+    - id: thanks
+      label: "🙏 Thank you"
+      text: "🙏 Thank you for shopping with us! We appreciate your support and look forward to serving you again."
+    - id: closed
+      label: "⚠️ Store closed"
+      text: "⚠️ Our store is closed today. You can place orders now and we will process them when we reopen."
