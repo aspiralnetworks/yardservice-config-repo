@@ -1,4 +1,4 @@
-isDeploymentOngoing: false
+isDeploymentOngoing: true
 
 # '#TOKEN#' to split messages
 sellerAppDisplayMessage: "*Welcome, sellers!*#TOKEN#We are currently onboarding sellers in *Bengaluru*.#TOKEN#First 100 founding sellers are getting 1 year free subscription also they will receive unlimited orders forever.#TOKEN#To get started, please watch the New Seller Playlist: [Video Link](https://www.youtube.com/watch?v=lu_FpNDQ2ag&list=PLiXR6K6xPJb2V9XggGsDLfjtvxMrcwpan)."
