@@ -5,3 +5,75 @@ sellerAppDisplayMessage: "*Welcome, sellers!*#TOKEN#We are currently onboarding 
 buyerAppDisplayMessage: "*Welcome, buyers!*#TOKEN#We are currently available in *Kothnur (560077), Bengaluru*, and are expanding our reach to serve more areas soon."
 
 imageKitQueryParams: "?tr=w-64,h-64,f-webp,q-80"
+
+sellerNotification:
+  presets:
+    # Stock and freshness
+    - id: fresh
+      label: "\U0001F96C Fresh stock"
+      text: "\U0001F96C Fresh stock has just arrived at our store. Order now while everything is available!"
+      broadcast: true
+    - id: arrivals
+      label: "\U0001F6D2 New arrivals"
+      text: "\U0001F6D2 We have new items in store this week. Open the app to see what is new."
+      broadcast: true
+    - id: restock
+      label: "\U0001F4E6 Back in stock"
+      text: "\U0001F4E6 Your favourites are back in stock! Order now before they run out again."
+      broadcast: false
+    - id: limited
+      label: "\u23F3 Limited stock"
+      text: "\u23F3 Some popular items are running low today. Order early to be sure you get yours."
+      broadcast: true
+    - id: seasonal
+      label: "\U0001F338 Seasonal items"
+      text: "\U0001F338 Seasonal items are now available at our store. Have a look and place your order today."
+      broadcast: true
+    - id: festival
+      label: "\U0001FA94 Festival needs"
+      text: "\U0001FA94 Festival season is here. Order everything you need from us in advance and avoid the last-minute rush."
+      broadcast: true
+
+    # Convenience and availability
+    - id: open
+      label: "\u2705 We are open"
+      text: "\u2705 We are open and ready to take your orders. Order through the app anytime."
+      broadcast: true
+    - id: delivery
+      label: "\U0001F69A Home delivery"
+      text: "\U0001F69A Home delivery is available today. Place your order and we will bring it to your door."
+      broadcast: true
+    - id: pickup
+      label: "\U0001F3EA Quick pickup"
+      text: "\U0001F3EA Order ahead in the app and pick it up when you pass by. Your order will be packed and waiting."
+      broadcast: true
+    - id: timing
+      label: "\U0001F552 Timings"
+      text: "\U0001F552 Our store timings have been updated. Open the app to check when we are open and order in advance."
+      broadcast: true
+    - id: weekend
+      label: "\U0001F324\uFE0F Weekend"
+      text: "\U0001F324\uFE0F Planning for the weekend? Place your order today and we will keep it ready for you."
+      broadcast: true
+
+    # Reminders and relationship
+    - id: weekly
+      label: "\U0001F4DD Weekly essentials"
+      text: "\U0001F4DD Time to stock up on this week's essentials? Order from us in a few taps."
+      broadcast: true
+    - id: missed
+      label: "\U0001F44B We miss you"
+      text: "\U0001F44B It has been a while since your last order. Come back and see what is new at our store."
+      broadcast: false
+    - id: reorder
+      label: "\U0001F501 Reorder"
+      text: "\U0001F501 Running low on something? Reorder your usual items from your past orders in seconds."
+      broadcast: false
+    - id: thanks
+      label: "\U0001F64F Thank you"
+      text: "\U0001F64F Thank you for shopping with us! We appreciate your support and look forward to serving you again."
+      broadcast: false
+    - id: closed
+      label: "\u26A0\uFE0F Store closed"
+      text: "\u26A0\uFE0F Our store is closed today. You can place orders now and we will process them when we reopen."
+      broadcast: true
